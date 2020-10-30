@@ -42,7 +42,7 @@ public class TokenRing{
         
         while(true){
             try{
-                conexion= new Socket(ip, nodo);
+                conexion= new Socket(ip, 50000);
                 break;
             }catch(IOException ex){
                 System.out.println("Reconectando...");

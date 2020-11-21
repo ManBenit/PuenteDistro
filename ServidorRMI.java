@@ -8,7 +8,7 @@ public class ServidorRMI{
         }
         
         String url = "rmi://localhost/matrices";
-        int N= Integer.parseInt(angrs[0]);
+        int N= Integer.parseInt(args[0]);
         ClaseRMI obj = new ClaseRMI(N);
 
 

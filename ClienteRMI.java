@@ -21,7 +21,7 @@ public class ClienteRMI{
             nodo1= args[0];
             nodo2= args[1];
             nodo3= args[2];
-            N=Integer.parseInt(args[2]);
+            N=Integer.parseInt(args[3]);
             iniciarMatrices();
             
             if(N==4){

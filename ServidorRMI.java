@@ -9,7 +9,7 @@ public class ServidorRMI{
         
         String url = "rmi://localhost/matrices";
         int N= Integer.parseInt(angrs[0]);
-        ClaseRMI obj = new ClaseRMI();
+        ClaseRMI obj = new ClaseRMI(N);
 
 
         // registra la instancia en el rmiregistry
